@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+body {
+    padding: 1em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-auto-rows: minmax(0, auto);
+    align-items: start;
+
+}
+
+#header {
+    font-family: "Staatliches", sans-serif;
+    grid-column: 1;
+    display: grid;
+    background-color: green;
+    padding: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+#header nav {
+    grid-row: 2;
+    padding-left: 2em;
+}
+
+#header ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+#myself {
+    grid-column: 1;
+    grid-row: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+#education {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#cv-links {
+    grid-row: 4;
+}
+
+#research-interests {
+    grid-row: 5;
+}
+
+
+#top-skills {
+    grid-row: 6;
+    
+}
+
+footer {
+    grid-row: 9;
+}
+
+#hobbies {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+#top-movies {
+    grid-column: 1;
+    grid-row: 8;
+}

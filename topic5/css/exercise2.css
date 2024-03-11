@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+body {
+    padding: 1em;
+}
+
+/* sets up column for header, nav, and main content */
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(0, auto);
+    align-items: start;
+    gap: 1.5em;
+}
+
+#header {
+    font-family: "Staatliches", sans-serif;
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: green;
+    align-items: center;
+    padding: 1em;
+}
+
+#header h1 {
+    font-size: 2em;
+}
+
+/* flexbox to structure the ul items */
+#header nav {
+    display: flex;
+}
+
+#header ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header nav ul li {
+    display: inline; /* Ensures list items are displayed horizontally */
+    margin-right: 2em; /* Adjust spacing between list items */
+    margin-top: 0;
+}
+
+#research-interests {
+    grid-column: 1/2;
+    background-color: beige;
+    color: brown;
+    font-size: 1.5em;
+    padding: 0.3em;
+    font-family: "Quicksand", sans-serif;
+}
+
+#research-interests h1 {
+    font-size: 1em;
+}
+
+#cv-links {
+    grid-column: 1/2;
+    font-size: 1.5em;
+    font-family: "Quicksand", sans-serif;
+}
+
+#cv-links a {
+    color: green;
+}
+
+#top-skills {
+    grid-column: 1/2;
+}
+
+/* Styling for top 3 skills, using a grid to display the text to the right of the image */
+#top-skills li {
+    display: grid;
+    grid-template-columns: auto 4fr;
+}
+
+footer {
+    grid-column: 1/2;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* flexbox for sturcturing text and image */
+#myself {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    display: flex;
+    font-size: 1.5em;
+    font-family: "Quicksand", sans-serif;
+}
+
+#myself img {
+    height: 20rem;
+}
+
+#education {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    font-size: 1.5em;
+    font-family: "Quicksand", sans-serif;
+}
+
+#education .year {
+    max-width: 2em;
+    padding-right: 3em;
+}
+
+#hobbies {
+    grid-column: 5/5;
+    grid-row: 2/3;
+}
+
+#education h1 {
+    font-size: 1em;
+}
+
+#education th {
+    max-width: 2em;;
+}
+
+#education td {
+    margin-left: 2em;
+}
+
+#top-movies {
+    grid-column: 5/5;
+    grid-row: 3/5;
+}
+
+/* styling for grid sections */
+
+h2 {
+    font-size: 1.5em;
+    background-color: green;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+}
+
+.subheader {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+}
+
+#top-skills, #hobbies, #top-movies {
+    padding: 0.5em;
+    background-color: rgb(209, 209, 209);
+    font-size: 1em;
+}
+
+.aside-content {
+    background-color: white;
+    font-family: "Quicksand", sans-serif;
+    padding: 1em;
+}

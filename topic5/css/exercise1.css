@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.attraction, aside {
+    border-top: 0.1rem solid lightgreen;
+}
+
+article {
+    margin: 2em 2em;
+    padding: 1em 1em;
+    background-color: lightgray;
+}
+
+.title {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+aside, footer {
+    color: white;
+    background-color: black;
+}
+
+.attraction {
+    height: 18rem;
+    background-color: lightgray;
+}
+
+figure {
+    position: relative;
+    margin-right: 4em;
+    width: 20em;
+    float: left;
+}
+
+figcaption {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); /* Red color with 50% opacity */
+    color: white;
+    width: 19.5em;
+    min-height: 2em;
+    top: 13rem;
+}
+
+.overlayed {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.attraction-image {
+    width: 20rem;
+    height: 15rem;
+}
+
+.attraction-caption {
+    margin: 2em;
+}
+
+a {
+    background-color: lightgreen;
+}
+
+footer {
+    height: 13rem;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+#related-posts {
+    border-top: 0.1rem solid lightgreen;
+    height: 20rem;
+    float: right;
+}
+
+#about-me {
+    max-width: 70%;
+    height: 20em;
+    border-top: 0.1rem solid lightgreen;
+}
+
+.footer-header {
+    padding-top: 2rem;
+}
+
+.footer-content {
+    margin-top: 2rem;
+}
+
+
+/* ````````````````````````````` */
+/* ````````````````````````````` */
+
